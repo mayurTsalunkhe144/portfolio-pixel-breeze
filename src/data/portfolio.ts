@@ -74,24 +74,24 @@ export interface PortfolioData {
 }
 
 const portfolioData: PortfolioData = {
-  name: "John Doe",
+  name: "MAYUR SALUNKHE",
   title: "Full Stack Developer",
-  email: "hello@example.com",
-  phone: "+1 (123) 456-7890",
-  location: "San Francisco, CA",
+  email: "mayursalunkhe144@gmail.com",
+  phone: "+91-8080747336",
+  location: "Pune, Maharashtra",
   bio: "Building digital products, brands, and experiences",
-  about: "I'm a full-stack developer with a passion for creating beautiful, functional, and user-friendly web applications. With 5+ years of experience in web development, I specialize in React, Node.js, and modern JavaScript. I love learning new technologies and solving complex problems.",
+  about: "I'm a full-stack developer with a passion for creating beautiful, functional, and user-friendly web applications. With experience in web development, I specialize in React, Node.js, and modern JavaScript. I love learning new technologies and solving complex problems.",
   resume: "/resume.pdf",
   avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
   socialLinks: [
     {
       name: "GitHub",
-      url: "https://github.com",
+      url: "https://github.com/mayurTsalunkhe144",
       icon: "github"
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com",
+      url: "https://linkedin.com/in/mayur-salunkhe-090a93287/",
       icon: "linkedin"
     },
     {
@@ -106,142 +106,117 @@ const portfolioData: PortfolioData = {
     }
   ],
   skills: [
-    { name: "React", level: 5, category: "frontend" },
-    { name: "JavaScript", level: 5, category: "frontend" },
-    { name: "TypeScript", level: 4, category: "frontend" },
-    { name: "HTML/CSS", level: 5, category: "frontend" },
-    { name: "Tailwind CSS", level: 5, category: "frontend" },
-    { name: "Node.js", level: 4, category: "backend" },
-    { name: "Express", level: 4, category: "backend" },
-    { name: "MongoDB", level: 3, category: "backend" },
-    { name: "PostgreSQL", level: 3, category: "backend" },
-    { name: "AWS", level: 3, category: "tools" },
-    { name: "Git", level: 4, category: "tools" },
-    { name: "Figma", level: 4, category: "design" },
-    { name: "UI/UX Design", level: 3, category: "design" }
+    { name: "JavaScript", level: 4, category: 'frontend' },
+    { name: "React.js", level: 4, category: 'frontend' },
+    { name: "HTML/CSS", level: 4, category: 'frontend' },
+    { name: "Tailwind CSS", level: 4, category: 'frontend' },
+    { name: "C/C++", level: 4, category: 'other' },
+    { name: "Java", level: 3, category: 'other' },
+    { name: "Python", level: 3, category: 'other' },
+    { name: "SQL", level: 3, category: 'backend' },
+    { name: "MySQL", level: 3, category: 'backend' },
+    { name: "Firebase", level: 3, category: 'backend' },
+    { name: "MongoDB", level: 3, category: 'backend' },
+    { name: "Git/GitHub", level: 4, category: 'tools' },
+    { name: "Docker", level: 3, category: 'tools' },
+    { name: "Windows", level: 4, category: 'tools' },
+    { name: "Linux", level: 3, category: 'tools' }
   ],
   projects: [
     {
       id: "project-1",
-      title: "E-commerce Platform",
-      description: "A full-featured e-commerce platform with payment processing and inventory management",
-      longDescription: "Built a complete e-commerce solution from scratch using React, Node.js, and MongoDB. Features include product catalog, user authentication, shopping cart, payment processing with Stripe, and an admin dashboard for inventory management.",
-      thumbnail: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe API"],
+      title: "AI Interview Mocker",
+      description: "A web app using Google Gemini AI for simulating real-time mock interviews",
+      longDescription: "The AI Interview Mocker is a web app using Google Gemini AI, Next.js, and Tailwind CSS to simulate real-time mock interviews. It generates AI-driven technical and HR questions, evaluates responses, and provides instant feedback. The system adapts to user skills, covering topics like data structures, algorithms, and system design, ensuring an interactive and personalized interview experience.",
+      thumbnail: "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      technologies: ["Google Gemini", "Next.js", "Tailwind CSS", "Clerk"],
       liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      githubUrl: "https://github.com/mayurTsalunkhe144/ai-interview-mocker",
       featured: true,
-      year: 2023,
+      year: 2024,
       category: "web"
     },
     {
       id: "project-2",
-      title: "Task Management App",
-      description: "A productivity app for managing tasks and projects",
-      longDescription: "Designed and developed a task management application that helps users organize their work with features like task creation, due dates, project grouping, and progress tracking. The app uses React for the frontend and Firebase for backend services.",
-      thumbnail: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      technologies: ["React", "Firebase", "Redux", "Material UI"],
+      title: "Video Conferencing App",
+      description: "A real-time communication platform for seamless video calls and collaboration",
+      longDescription: "The Video Conferencing App is a real-time communication platform developed using React.js, Stream.io, and Clerk for user management. It enables seamless video calls, messaging, and collaboration with features like secure user authentication, dynamic room creation, and participant management. The app leverages Stream.io for high-quality video streaming and Clerk for robust user authentication and role management, providing a smooth and reliable conferencing experience.",
+      thumbnail: "https://images.unsplash.com/photo-1587614313085-5da51cebd8ac?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      technologies: ["React.js", "Stream.io", "Clerk", "Tailwind CSS"],
       liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      githubUrl: "https://github.com/mayurTsalunkhe144/video-conferencing-app",
       featured: true,
-      year: 2022,
-      category: "web"
-    },
-    {
-      id: "project-3",
-      title: "Fitness Tracker",
-      description: "A mobile app for tracking workouts and fitness progress",
-      longDescription: "Created a mobile-first fitness tracking application that allows users to record workouts, track progress over time, and set goals. The app features workout templates, progress charts, and social sharing capabilities.",
-      thumbnail: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      technologies: ["React Native", "Redux", "Node.js", "MongoDB"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
-      featured: false,
-      year: 2022,
-      category: "mobile"
-    },
-    {
-      id: "project-4",
-      title: "Portfolio Website",
-      description: "A personal portfolio website showcasing my work and skills",
-      longDescription: "Designed and developed a responsive portfolio website to showcase my projects and skills. The site features a clean, modern design with smooth animations and a contact form.",
-      thumbnail: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      technologies: ["React", "Tailwind CSS", "Framer Motion"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
-      featured: false,
-      year: 2021,
+      year: 2023,
       category: "web"
     }
   ],
   experience: [
     {
-      title: "Senior Frontend Developer",
-      company: "Tech Solutions Inc.",
-      location: "San Francisco, CA",
-      fromDate: "2021-01",
-      toDate: "Present",
-      description: "Lead frontend development for multiple web applications, collaborated with designers and backend developers, implemented best practices for code quality and performance optimization.",
-      skills: ["React", "TypeScript", "Redux", "Jest", "Webpack"]
+      title: "Web Developer Intern",
+      company: "EY GDS AICTE",
+      location: "Pune, Maharashtra",
+      fromDate: "02/2024",
+      toDate: "04/2024",
+      description: "Developed a note-sharing application using Django framework. Conducted regular code reviews, identified areas for improvement, and implemented best practices to maintain code quality, readability, and maintainability throughout the development lifecycle. Demonstrated strong problem-solving abilities, adaptability, and a proactive approach to overcoming challenges.",
+      skills: ["Django", "Python", "Backend Development", "Database Management", "Problem Solving"]
     },
     {
-      title: "Full Stack Developer",
-      company: "Digital Innovations",
-      location: "Los Angeles, CA",
-      fromDate: "2018-03",
-      toDate: "2020-12",
-      description: "Worked on various web applications from concept to deployment, participated in all phases of the software development lifecycle, and mentored junior developers.",
-      skills: ["JavaScript", "Node.js", "Express", "MongoDB", "React"]
-    },
-    {
-      title: "Web Developer",
-      company: "CreativeMinds Agency",
-      location: "Portland, OR",
-      fromDate: "2016-05",
-      toDate: "2018-02",
-      description: "Developed responsive websites for clients across various industries, maintained existing websites, and implemented new features based on client requirements.",
-      skills: ["HTML", "CSS", "JavaScript", "WordPress", "PHP"]
+      title: "Industrial Training",
+      company: "WELSOFT",
+      location: "Kolhapur, Maharashtra",
+      fromDate: "2019",
+      toDate: "2019",
+      description: "Developed a web application using ASP.NET. Conducted regular code reviews, identified areas for improvement, and implemented best practices to maintain code quality, readability, and maintainability throughout the development lifecycle. Performed test cases, found bugs in production phase code base, created reports, managed database, created responsive frontend designs.",
+      skills: ["ASP.NET", "Web Development", "Testing", "Database Management", "Frontend Design"]
     }
   ],
   education: [
     {
-      degree: "Master of Science in Computer Science",
-      institution: "Stanford University",
-      location: "Stanford, CA",
-      fromDate: "2014-09",
-      toDate: "2016-06",
-      description: "Specialized in web technologies and artificial intelligence. Thesis on real-time web applications."
+      degree: "Bachelor in Computer Engineering",
+      institution: "Trinity College of Engineering and Research",
+      location: "Pune, Maharashtra",
+      fromDate: "2022",
+      toDate: "Present",
+      description: "Cumulative GPA: 8.55/10.00"
     },
     {
-      degree: "Bachelor of Science in Software Engineering",
-      institution: "University of Washington",
-      location: "Seattle, WA",
-      fromDate: "2010-09",
-      toDate: "2014-06",
-      description: "Graduated with honors. Participated in various coding competitions and hackathons."
+      degree: "Diploma in Computer Engineering",
+      institution: "BSIET",
+      location: "Kolhapur, Maharashtra",
+      fromDate: "2019",
+      toDate: "2022",
+      description: "Percentage: 87.89%"
+    },
+    {
+      degree: "SSC",
+      institution: "Private Highschool",
+      location: "Kolhapur, Maharashtra",
+      fromDate: "2018",
+      toDate: "2019",
+      description: "Percentage: 83.60%"
     }
   ],
   certifications: [
     {
-      title: "AWS Certified Solutions Architect",
-      issuer: "Amazon Web Services",
-      date: "2022-05",
+      title: "Web Development Bootcamp",
+      issuer: "Udemy",
+      date: "2023",
       url: "https://example.com",
-      credentialId: "ABC123456"
+      credentialId: "WD123456"
     },
     {
-      title: "Google Professional Cloud Developer",
-      issuer: "Google Cloud",
-      date: "2021-11",
+      title: "React.js Certification",
+      issuer: "Meta",
+      date: "2023",
       url: "https://example.com",
-      credentialId: "XYZ789012"
+      credentialId: "RC789012"
     },
     {
-      title: "MongoDB Certified Developer",
-      issuer: "MongoDB",
-      date: "2020-08",
+      title: "Python Programming",
+      issuer: "Coursera",
+      date: "2022",
       url: "https://example.com",
-      credentialId: "MDB345678"
+      credentialId: "PP345678"
     }
   ]
 };
